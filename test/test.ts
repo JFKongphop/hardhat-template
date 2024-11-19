@@ -3,8 +3,6 @@ import { ethers } from 'hardhat';
 import { SignerWithAddress } from '@nomicfoundation/hardhat-ethers/signers';
 // import { } from '../typechain-types';
 
-const metadata = 'ipfs://QmPmigL4qmQTxFxXw5NysNjiuw2qd9VneTVW1KydmAT1pE'
-
 describe('Contract', async () => {
   let user1: SignerWithAddress; 
   let user2: SignerWithAddress;
